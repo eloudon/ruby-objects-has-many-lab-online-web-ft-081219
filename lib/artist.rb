@@ -26,4 +26,5 @@ class Artist
 end
 
 hello = Song.new("Hello")
+hello.artist = adele
 adele.add_song(hello)
