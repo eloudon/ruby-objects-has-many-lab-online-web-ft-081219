@@ -24,3 +24,6 @@ class Artist
     @@all.count
   end
 end
+
+hello = Song.new("Hello")
+adele.add_song(hello)
